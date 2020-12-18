@@ -163,7 +163,7 @@ const createPost = (params, image) => {
         timeStamp: new Date(),
         title: params.title,
         comments: params.comments,
-        imgUrl: config.AWS_UPLOADED_FILE_BASE_LINK + `/${image}`
+        imgUrl: config.AWS_UPLOADED_FILE_BASE_LINK + `${image}`
     }
 }
 
